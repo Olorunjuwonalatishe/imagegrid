@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(./asset/creative-light-bulb-abstract-glowing-blue-background-generative-ai.jpg);
+    background: url(./creative-light-bulb-abstract-glowing-blue-background-generative-ai.jpg);
     background-repeat: none;
     background-size: cover;
 }
