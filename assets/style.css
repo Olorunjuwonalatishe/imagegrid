@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/creative-light-bulb-abstract-glowing-blue-background-generative-ai.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.container{
+    background-color: indigo;
+    height: 100%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 50px;
+}
+
+ img{
+    width: 100%;
+    gap: 1rem;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.card5 img{
+    width: 78%;
+    margin-left: 2rem;
+}
